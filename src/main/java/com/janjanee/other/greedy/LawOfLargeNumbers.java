@@ -27,7 +27,8 @@ public class LawOfLargeNumbers {
         if (first == second) {
             result = first * m;
         } else {
-            int count = m / k * k;
+            int count = (m / (k + 1)) * k;
+            count += m % (k + 1);
             result = (first * count) + ((m - count) * second);
         }
 
