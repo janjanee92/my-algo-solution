@@ -1,5 +1,6 @@
 package com.janjanee.leetcode;
 
+import com.janjanee.leetcode.array.KidsWithTheGreatestNumberOfCandies;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

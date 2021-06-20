@@ -1,4 +1,4 @@
-package com.janjanee.leetcode;
+package com.janjanee.leetcode.array;
 
 /**
  * leetcode 1470. Shuffle the Array

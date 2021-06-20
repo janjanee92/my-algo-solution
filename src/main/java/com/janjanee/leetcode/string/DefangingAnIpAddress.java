@@ -1,4 +1,4 @@
-package com.janjanee.leetcode;
+package com.janjanee.leetcode.string;
 
 /**
  * leetcode 1108. Defanging an IP Address

@@ -1,5 +1,6 @@
 package com.janjanee.leetcode;
 
+import com.janjanee.leetcode.array.ShuffleTheArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

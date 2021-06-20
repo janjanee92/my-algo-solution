@@ -1,4 +1,4 @@
-package com.janjanee.leetcode;
+package com.janjanee.leetcode.array;
 
 /**
  * leetcode 1480. Running Sum of 1d Array
