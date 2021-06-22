@@ -1,4 +1,4 @@
-package com.janjanee.leetcode;
+package com.janjanee.leetcode.string;
 
 import com.janjanee.leetcode.string.DefangingAnIpAddress;
 import org.junit.jupiter.api.Test;
