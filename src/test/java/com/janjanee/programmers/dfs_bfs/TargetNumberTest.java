@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TargetNumberTest {
 
+    public final TargetNumber tn = new TargetNumber();
 
     @Test
     void case1() {
@@ -28,10 +29,8 @@ class TargetNumberTest {
     }
 
     private void test(int[] numbers, int target, int expected) {
-        TargetNumber tn = new TargetNumber();
         int bfs = tn.solutionBFS(numbers, target);
         int dfs = tn.solutionDFS(numbers, target);
-
         assertEquals(expected, bfs);
         assertEquals(expected, dfs);
     }
