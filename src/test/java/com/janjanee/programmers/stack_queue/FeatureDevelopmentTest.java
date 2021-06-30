@@ -10,7 +10,7 @@ class FeatureDevelopmentTest {
 
     @Test
     void case1() {
-        int[] result = fd.solution(new int[]{93, 30, 55}, new int[]{1, 30, 5});
+        int[] result = fd.solution2(new int[]{93, 30, 55}, new int[]{1, 30, 5});
         assertArrayEquals(new int[]{2, 1}, result);
     }
 

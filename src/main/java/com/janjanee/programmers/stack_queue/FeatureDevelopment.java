@@ -40,6 +40,33 @@ public class FeatureDevelopment {
 
         }
 
-        return list.stream().mapToInt(i -> i).toArray();
+        return list.stream().mapToInt(Integer::intValue).toArray();
+    }
+
+    /**
+     * 남은 기간을 미리 계산
+     */
+    public int[] solution2(int[] progresses, int[] speeds) {
+        Queue<Integer> q = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i < speeds.length; i++) {
+            double remain = (100 - progresses[i]) / (double)speeds[i];
+            int remainDate = (int)Math.ceil(remain);
+
+            if (!q.isEmpty() && q.peek() < remainDate) {
+                list.add(q.size());
+                q.clear();
+            }
+
+            q.offer(remainDate);
+        }
+        list.add(q.size());
+
+        int[] result = new int[list.size()];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = list.get(i);
+        }
+        return result;
     }
 }
