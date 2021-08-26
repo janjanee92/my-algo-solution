@@ -6,7 +6,9 @@ import java.util.Set;
 
 /**
  * Q1. 정렬되어 있지 않은 LinkedList 중복 원소 제거
- * @author leejihan
+ *
+ * [참고자료]
+ * - Java 11 LinkedList 구현체를 참고하여 구현
  */
 public class LinkedList<E> {
 

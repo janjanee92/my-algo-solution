@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LinkedListTest {
 
-
     @Test
     @DisplayName("중첩루프 중복 제거 - Integer")
     void case_1() {
